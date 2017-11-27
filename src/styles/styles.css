@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#app{
+    width: 500px;
+}
+.preview-list-row:before{
+    content: "";
+    height: 1px;
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgb(247, 4, 4) 50%,rgba(0,0,0,0) 100%);
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main-ticker-container{
+    margin-top: 10%;
+    border: 6px solid black;
+    align-self: center;
+    flex-direction: column;
+    padding: 7%;
+    background: #ff3019; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff3019 0%, #0f0006 55%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff3019 0%,#0f0006 55%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff3019 0%,#0f0006 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#0f0006',GradientType=0 ); /* IE6-9 */
+}
+
+.input-messages-container{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.image{
+    float: left;
+    position: relative;
+    top: 10px;
+    left: -5px;
+}
+
+.name-data{
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+}
+.time-data{
+    display: block;
+    padding-left:  50px;
+    color: red;
+    position: relative;
+    top: -5px;
+    font-size: 0.8em;
+}
+ .inner-content{
+    color: white;
+    font-size: 0.8em;
+}
